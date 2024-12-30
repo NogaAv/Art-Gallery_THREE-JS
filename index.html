@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Noga's Art Gallery</title>
     <script type="module" crossorigin src="/Art-Gallery_THREE-JS/assets/index.1419bec4.js"></script>
-    <link rel="stylesheet" href="/Art-Gallery_THREE-JS/assets/index.429a1584.css">
+    <link rel="stylesheet" href="/Art-Gallery_THREE-JS/assets/index.1f8a91c6.css">
   </head>
   <body>
     <canvas id="bg"></canvas>
@@ -18,106 +18,158 @@
       </header>
 
       <blockquote>
-        <p>I love art, especially painting</p>
+        <p>I love art, especially paintings</p>
         <br />
         <p>Here are some of my paintings...</p>
       </blockquote>
+      <div class="hidden">
+        <p>I love art,</p>
+        <p>especially paintings</p>
+        <p>Here are some of my paintings...</p>
+      </div>
 
       <section>
         <h2>Oil On Canvas Paintings</h2>
       </section>
 
-      <div id="oil-1" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/painting-1.dd12249c.jpg" />
-      </div>
+      <div class="paintings-container_">
+        <div class="paintings-row">
+          <div id="oil-1" class="larg-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/painting-1.dd12249c.jpg" />
+          </div>
+        </div>
+        <div class="paintings-row">
+          <div id="oil-2" class="larg-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/painting-2.cd725f55.jpg" />
+          </div>
+        </div>
 
-      <div id="oil-2" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/painting-2.cd725f55.jpg" />
-      </div>
+        <div class="gap"></div>
 
-      <div class="gap"></div>
-      <div id="oil-3" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/painting-3.d78ab7ba.jpg" />
-      </div>
+        <div class="paintings-row">
+          <div id="oil-3" class="larg-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/painting-3.d78ab7ba.jpg" />
+          </div>
+        </div>
 
-      <div id="oil-4" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/painting-4.0913e686.jpg" />
-      </div>
+        <div class="paintings-row">
+          <div id="oil-4" class="larg-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/painting-4.0913e686.jpg" />
+          </div>
+        </div>
 
-      <div id="oil-5" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/painting-5.014ef33f.jpg" />
-      </div>
+        <div class="paintings-row">
+          <div id="oil-5" class="small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/painting-5.014ef33f.jpg" />
+          </div>
+        </div>
 
-      <div id="oil-6" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/painting-6.a3cf52b8.jpg" />
-      </div>
-
-      <section style="margin-top: var(--spacing)">
-        <h2>Oil On Canvas - My Familly and Friends</h2>
-      </section>
-
-      <div id="oil-eden" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/eden.f27f378c.jpg" />
-      </div>
-      <div id="oil-boy" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/sweet-boy.c794acbd.jpg" />
-      </div>
-      <div id="oil-baby" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/baby.15e1eac4.jpg" />
-      </div>
-      <div id="oil-6" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/happy-kids.fa7e51ef.jpg" />
-      </div>
-      <div id="happy-holiday-girl" class="painting frame">
-        <img src="/Art-Gallery_THREE-JS/assets/happy-holiday-girl.e48fbb82.jpg" />
+        <div class="paintings-row">
+          <div id="oil-6" class="medium-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/painting-6.a3cf52b8.jpg" />
+          </div>
+        </div>
       </div>
 
       <section style="margin-top: var(--spacing)">
-        <h2>Pancil Drawings - Market Theme</h2>
+        <h2>Oil On Canvas</h2>
+        <h3>(My Familly and Friends)</h3>
       </section>
 
-      <div class="pancil-draw left">
-        <img src="/Art-Gallery_THREE-JS/assets/bread.02110378.jpg" />
-      </div>
-      <div class="pancil-draw right">
-        <img src="/Art-Gallery_THREE-JS/assets/cheez.2db90ae0.jpg" />
-      </div>
-      <div class="pancil-draw left">
-        <img src="/Art-Gallery_THREE-JS/assets/fish.11a6a587.jpg" />
-      </div>
-      <div class="pancil-draw right">
-        <img src="/Art-Gallery_THREE-JS/assets/sausag.89bb439c.jpg" />
-      </div>
-      <div class="pancil-draw middle">
-        <img src="/Art-Gallery_THREE-JS/assets/bread_.bf00ddf4.jpg" />
+      <div class="paintings-row">
+        <div id="oil-eden" class="small-paint">
+          <img src="/Art-Gallery_THREE-JS/assets/eden.f27f378c.jpg" />
+        </div>
       </div>
 
-      <div class="pancil-draw left">
-        <img src="/Art-Gallery_THREE-JS/assets/piece-of-cheez.fef780d8.jpg" />
+      <div class="paintings-row">
+        <div id="oil-boy" class="medium-paint">
+          <img src="/Art-Gallery_THREE-JS/assets/sweet-boy.c794acbd.jpg" />
+        </div>
       </div>
-      <div class="pancil-draw right">
-        <img src="/Art-Gallery_THREE-JS/assets/neck.55690910.jpg" />
+      <div class="paintings-row">
+        <div id="oil-baby" class="larg-paint">
+          <img src="/Art-Gallery_THREE-JS/assets/baby.15e1eac4.jpg" />
+        </div>
       </div>
-      <div class="pancil-draw left">
-        <img src="/Art-Gallery_THREE-JS/assets/threads.51f3b271.jpg" style="width: 25rem" />
+      <div class="paintings-row">
+        <div id="oil-6" class="larg-paint">
+          <img src="/Art-Gallery_THREE-JS/assets/happy-kids.fa7e51ef.jpg" />
+        </div>
+      </div>
+      <div class="paintings-row">
+        <div id="happy-holiday-girl" class="small-paint">
+          <img src="/Art-Gallery_THREE-JS/assets/happy-holiday-girl.e48fbb82.jpg" />
+        </div>
       </div>
 
-      <div class="pancil-draw right">
-        <img src="/Art-Gallery_THREE-JS/assets/front-fish.816936f7.jpg" style="width: 25rem" />
-      </div>
-      <div class="pancil-draw right-end">
-        <img src="/Art-Gallery_THREE-JS/assets/chicken.1a8b05c6.jpg" style="width: 25rem" />
-      </div>
-      <div class="pancil-draw left">
-        <img src="/Art-Gallery_THREE-JS/assets/market.14aa4c6d.jpg" />
-      </div>
-      <div class="pancil-draw right">
-        <img src="/Art-Gallery_THREE-JS/assets/shopping-bag.cb087a16.jpg" />
+      <section style="margin-top: var(--spacing)">
+        <h2>Pancil Drawings</h2>
+        <h3>(Market Theme)</h3>
+      </section>
+
+      <div class="paintings-container">
+        <div class="paintings-row">
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/bread.02110378.jpg" />
+          </div>
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/cheez.2db90ae0.jpg" />
+          </div>
+        </div>
+
+        <div class="paintings-row">
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/fish.11a6a587.jpg" />
+          </div>
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/sausag.89bb439c.jpg" />
+          </div>
+        </div>
+
+        <div class="paintings-row">
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/bread_.bf00ddf4.jpg" />
+          </div>
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/piece-of-cheez.fef780d8.jpg" />
+          </div>
+        </div>
+
+        <div class="paintings-row">
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/neck.55690910.jpg" />
+          </div>
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/threads.51f3b271.jpg" />
+          </div>
+        </div>
+
+        <div class="paintings-row">
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/front-fish.816936f7.jpg" />
+          </div>
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/chicken.1a8b05c6.jpg" />
+          </div>
+        </div>
+
+        <div class="paintings-row">
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/market.14aa4c6d.jpg" />
+          </div>
+          <div class="pancil-draw small-paint">
+            <img src="/Art-Gallery_THREE-JS/assets/shopping-bag.cb087a16.jpg" />
+          </div>
+        </div>
       </div>
 
       <blockquote style="margin-top: 12rem">
-        <p style="margin-top: 10rem">Thanks for visiting my gallary!</p>
+        <p style="margin-top: 10rem">Thanks for visiting my gallery!</p>
       </blockquote>
+      <div class="hidden">
+        <p>Thanks for visiting my gallery!</p>
+      </div>
     </main>
 
     
